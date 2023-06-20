@@ -10,7 +10,7 @@ export const LoginPage = () => {
         credentials && navigate('/home')
     }, [credentials])
     return <div style={{ textAlign: 'center' }}>
-        <h1>Login Page</h1>
+        <h1>Login Page Test</h1>
         <ButtonGoogleLogin/>
     </div>
 }
