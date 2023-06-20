@@ -8,7 +8,6 @@ export const PostForm = () => {
     const handleCreatePost = async () => {
         setError('')
         if(post === '' ){
-            setError('Post cannot be empty')
             return
         }
 
